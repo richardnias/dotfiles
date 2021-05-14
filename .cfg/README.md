@@ -1,1 +1,2 @@
-https://www.atlassian.com/git/tutorials/dotfiles
+# dotfiles
+new dotfiles repo

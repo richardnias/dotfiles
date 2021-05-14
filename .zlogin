@@ -7,10 +7,8 @@ fi
 export GOPATH="$HOME/go"
 export PATH="$PATH:/usr/local/sbin"
 export PATH="$PATH:$GOPATH/bin"
-export PATH="$PATH:$HOME/scripts/bin"
-export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$HOME/.cargo/bin"
-export PATH="$PATH:$HOME/dotfiles/bin"
+export PATH="$PATH:$HOME/.bin"
 export PATH="/usr/local/opt/postgresql@9.6/bin:$PATH"
 export PATH="/usr/local/opt/redis@3.2/bin:$PATH"
 export PATH="$HOME/.yarn/bin:$PATH"
@@ -51,7 +49,6 @@ fi
 
 autoload -U bashcompinit
 bashcompinit
-eval "$(register-python-argcomplete pipx)"
 
 export LC_ALL=en_GB.UTF-8
 export LANG=en_GB.UTF-8

@@ -2,6 +2,11 @@ export EDITOR=/usr/local/bin/vim
 export DEFAULT_USER=`whoami`
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME'
+alias cst='config status'
+alias ca='config add'
+alias cco='config commit'
+alias cpu='config push'
+
 
 # Keypad
 # 0 . Enter

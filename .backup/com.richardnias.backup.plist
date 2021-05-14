@@ -7,15 +7,15 @@
     <string>com.richardnias.backup</string>
     <key>ProgramArguments</key>
     <array>
-	    <string>/Users/nias/dotfiles/backup/backup.sh</string>
+	    <string>/Users/nias/.backup/backup.sh</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
     <key>StartInterval</key>
     <integer>3600</integer>
     <key>StandardErrorPath</key>
-    <string>/Users/nias/backup.err</string>
+	<string>/Users/nias/.backup/backup.err</string>
     <key>StandardOutPath</key>
-    <string>/Users/nias/backup.log</string>
+	<string>/Users/nias/.backup/backup.log</string>
   </dict>
 </plist>

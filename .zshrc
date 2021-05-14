@@ -48,13 +48,9 @@ antigen bundle vasyharan/zsh-brew-services
 antigen bundle mdumitru/fancy-ctrl-z
 antigen bundle caarlos0/zsh-git-sync
 antigen bundle mafredri/zsh-async
-antigen bundle richardnias/pure
 antigen bundle lukechilds/zsh-nvm
 
 antigen apply
-
-# pipenv
-PIPENV_SHELL_FANCY=true
 
 # GPG config
 export GPG_TTY=$(tty)
@@ -63,3 +59,4 @@ export GPG_TTY=$(tty)
 export PATH="$PATH:$HOME/.rvm/bin"
 
 export PATH="$HOME/.poetry/bin:$PATH"
+

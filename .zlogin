@@ -50,6 +50,8 @@ fi
 autoload -U bashcompinit
 bashcompinit
 
+autoload -U promptinit; promptinit
+prompt pure
 export LC_ALL=en_GB.UTF-8
 export LANG=en_GB.UTF-8
 
